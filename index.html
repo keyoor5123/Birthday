@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Meghana</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Opening Screen -->
+    <section class="opening" id="opening">
+
+        <p class="small-text">A little something for you</p>
+
+        <h1>Hey, Me.</h1>
+
+        <p class="subtitle">I made something for you.</p>
+
+        <button id="startButton">Open it →</button>
+
+    </section>
+
+   <!-- Story Section -->
+<section class="story" id="story">
+
+    <p class="small-text">Chapter 01</p>
+
+    <h2>It all started in 7th grade.</h2>
+
+    <p class="story-text">
+        And somehow, those school years became the beginning
+        of a friendship that stayed.
+    </p>
+
+    <button id="memoryButton">There's more →</button>
+
+</section>
+
+<!-- Memory Section -->
+<section class="memory" id="memory">
+
+    <p class="small-text">A little memory</p>
+
+    <h2>Some things just stay.</h2>
+
+    <p class="memory-text">
+        Different classrooms.<br>
+        Different cities.<br>
+        Somehow, still the same friendship.
+    </p>
+
+    <button id="nextButton">Continue →</button>
+
+</section>
+
+<!-- Chapter 02 -->
+<section class="chapter-two" id="chapterTwo">
+
+    <p class="small-text">Chapter 02</p>
+
+    <h2>And then there was that diary.</h2>
+
+    <p class="chapter-text">
+       Of course you might be rembembering 
+       that staircase and diary incident to be 
+       frank i was more scared than you when you 
+       tried to catch that Diary..!!!
+    </p>
+
+    <button id="diaryButton">I remember this →</button>
+
+    <div class="diary-reveal" id="diaryReveal">
+
+        <p>
+            Funny how something so small can stay
+            in your mind for years.
+        </p>
+
+        <span>Some memories don't really need a photograph.</span>
+
+    </div>
+
+</section>
+
+<!-- Chapter 03 -->
+<section class="chapter-three" id="chapterThree">
+
+    <p class="small-text">Chapter 03</p>
+
+    <h2>Then life changed a little.</h2>
+
+    <p class="chapter-text">
+        I moved to a different city.
+        And for the next couple of years, life got busy.
+        <br><br>
+        Different goals. Different exams.
+        Different things to figure out.
+        <br><br>
+        We didn't talk.
+        Not because anything happened...
+        we were just busy building our own futures.
+    </p>
+
+    <button id="cityButton">And then... →</button>
+
+</section>
+
+<!-- Chapter 04 -->
+<section class="chapter-four" id="chapterFour">
+
+    <p class="small-text">Chapter 04</p>
+
+    <h2>And then, after almost two years...</h2>
+
+    <p class="chapter-text">
+        We talked again.
+        <br><br>
+        And somehow, it didn't feel like starting over.
+        <br>
+        It felt like picking up where we left off.
+    </p>
+
+    <button id="reconnectButton">Keep going →</button>
+
+</section>
+
+<!-- Photo Story -->
+<section class="photo-story" id="photoStory">
+
+    <!-- Photo 1 -->
+    <div class="photo-slide" id="photoSlide1">
+
+        <p class="small-text">A few moments later...</p>
+
+        <h2>Some memories deserve a picture.</h2>
+
+        <img src="intro-photo.png"
+             alt="A special memory"
+             class="story-photo">
+
+        <p class="photo-story-text">
+            Years passed, life changed,
+            and somehow there were still little moments worth remembering.
+        </p>
+
+        <button id="photoStoryButton">Next →</button>
+
+    </div>
+
+
+    <!-- Photo 2 -->
+    <div class="photo-slide" id="photoSlide2">
+
+        <p class="small-text">After almost two years...</p>
+
+        <h2>And then, we started talking again.</h2>
+
+        <img src="reconnect-photo.jpg"
+             alt="A photo from when we reconnected"
+             class="story-photo">
+
+        <p class="photo-story-text">
+            This was the first photo you sent me
+            after all that time.
+        </p>
+
+        <button id="photoStoryNextButton">Next →</button>
+
+    </div>
+
+    <!-- Photo 3 -->
+<div class="photo-slide" id="photoSlide3">
+
+    <p class="small-text">A little throwback...</p>
+
+    <h2>Some memories go way back.</h2>
+
+    <img src="old-memory.jpg"
+         alt="An old memory"
+         class="story-photo">
+
+    <p class="photo-story-text">
+        A small glimpse from the past,
+        before everything became what it is today.
+    </p>
+
+    <button id="photoStoryNextButton2">Next →</button>
+
+</div>
+
+</section>
+
+
+
+</section>
+
+<!-- Birthday Quiz -->
+<section class="birthday-quiz" id="birthdayQuiz">
+
+    <!-- Question 1 -->
+    <div class="quiz-slide" id="quizSlide1">
+
+        <p class="small-text">One Important Question...</p>
+
+        <h2>Are engineers cooler than dentists?</h2>
+
+        <div class="quiz-options">
+            <button class="quiz-option" id="q1Yes">YES 😎</button>
+            <button class="quiz-option" id="q1No">NO 😭</button>
+        </div>
+
+        <p class="quiz-result" id="quizResult1"></p>
+
+    </div>
+
+
+    <!-- Question 2 -->
+    <div class="quiz-slide" id="quizSlide2">
+
+        <p class="small-text">Question 02</p>
+
+        <h2>What's the most important thing for a future dentist?</h2>
+
+        <div class="quiz-options">
+            <button class="quiz-option">☕ Coffee</button>
+            <button class="quiz-option">📚 Studying</button>
+            <button class="quiz-option">😴 Sleep</button>
+            <button class="quiz-option">😂 All of the above</button>
+        </div>
+
+        <p class="quiz-result" id="quizResult2"></p>
+
+    </div>
+
+
+    <!-- Question 3 -->
+    <div class="quiz-slide" id="quizSlide3">
+
+        <p class="small-text">Question 03</p>
+
+        <h2>Who suffers more during college?</h2>
+
+        <div class="quiz-options">
+            <button class="quiz-option">💻 Engineers</button>
+            <button class="quiz-option">🦷 Dentists</button>
+            <button class="quiz-option">📚 Both</button>
+            <button class="quiz-option">😂 Whoever has an exam tomorrow</button>
+        </div>
+
+        <p class="quiz-result" id="quizResult3"></p>
+
+    </div>
+
+
+    <!-- Question 4 -->
+    <div class="quiz-slide" id="quizSlide4">
+
+        <p class="small-text">Question 04</p>
+
+        <h2>What does every future dentist secretly need?</h2>
+
+        <div class="quiz-options">
+            <button class="quiz-option">☕ Unlimited coffee</button>
+            <button class="quiz-option">😴 Unlimited sleep</button>
+            <button class="quiz-option">📱 A working phone</button>
+            <button class="quiz-option">😂 A miracle</button>
+        </div>
+
+        <p class="quiz-result" id="quizResult4"></p>
+
+    </div>
+
+
+    <!-- Question 5 -->
+    <div class="quiz-slide" id="quizSlide5">
+
+        <p class="small-text">The Final Question...</p>
+
+        <h2>After all these years, what's the one thing that never really changed?</h2>
+
+        <div class="quiz-options">
+            <button class="quiz-option">😂 Our stupidity</button>
+            <button class="quiz-option">🤝 The friendship</button>
+            <button class="quiz-option">📸 The memories</button>
+            <button class="quiz-option">❤️ All of the above</button>
+        </div>
+
+        <p class="quiz-result" id="quizResult5"></p>
+
+    </div>
+
+</section>
+
+
+<!-- Friendship Timeline -->
+<section class="friendship-timeline" id="friendshipTimeline">
+    <!-- Childhood -->
+    <div class="timeline-slide" id="timelineSlide1">
+
+        <p class="small-text">Before all of this...</p>
+
+        <h2>We weren't friends at this time.</h2>
+
+        <img src="kid-photo.jpg"
+             alt="Childhood photo"
+             class="timeline-photo">
+
+        <p class="timeline-text">
+            Little did we know what was coming years later.
+        </p>
+
+        <button id="timelineButton1">Next →</button>
+
+    </div>
+
+
+    <!-- Teenage -->
+    <div class="timeline-slide" id="timelineSlide2">
+
+        <p class="small-text">And then...</p>
+
+        <h2>Our friendship started.</h2>
+
+        <img src="teen-photo.jpg"
+             alt="Teenage photo"
+             class="timeline-photo">
+
+        <p class="timeline-text">
+            And somehow, this person became someone
+            I would still be talking about years later.
+        </p>
+
+        <button id="timelineButton2">Next →</button>
+
+    </div>
+
+
+    <!-- Old Woman -->
+<div class="timeline-slide" id="timelineSlide3">
+
+    <p class="small-text">Fast forward a few years...</p>
+
+    <h2>So apparently, this is your future.</h2>
+
+    <img src="old-woman.jpg"
+         alt="Future old woman"
+         class="timeline-photo">
+
+    <p class="timeline-text">
+        No matter if you look like this someday...
+        <br>
+        I'm still going to be your friend. 😂❤️
+    </p>
+
+    <button id="timelineButton3">Okay, fair enough →</button>
+
+</div>
+
+<!-- Doctor Photo -->
+<div class="timeline-slide" id="doctorSlide">
+
+    <p class="small-text">And then...</p>
+
+    <h2>Apparently, you decided to become a doctor OHh  Dentist . 😂</h2>
+
+    <img src="doctor-photo.jpg"
+         alt="A doctor memory"
+         class="timeline-photo">
+
+    <p class="timeline-text">
+        Because obviously, becoming a doctor
+        was the next logical step.
+    </p>
+
+  <button id="doctorNextButton">Next →</button>
+
+</div>
+
+</section>
+
+
+<!-- Final Birthday Reveal -->
+
+<section class="final-reveal" id="finalReveal">
+
+    <!-- 1. Ending Teaser -->
+
+    <div class="final-teaser" id="finalTeaser">
+
+        <p class="small-text">Wait...</p>
+
+        <h2>You really thought that was the end?</h2>
+
+        <p class="final-text">
+            I still had one thing left.
+        </p>
+
+        <button id="finalMessageButton">
+            Continue →
+        </button>
+
+    </div>
+
+
+    <!-- 2. Completion Screen -->
+
+    <div class="final-completion" id="finalCompletion">
+
+        <p class="small-text">FINAL MESSAGE</p>
+
+        <div class="loading-list">
+
+            <p>MEMORIES ................. <span>✓</span></p>
+            <p>STUPID JOKES ............ <span>✓</span></p>
+            <p>DENTIST MODE ............ <span>✓</span></p>
+            <p>BIRTHDAY QUIZ ........... <span>✓</span></p>
+            <p>COUNTLESS RANDOM MOMENTS  <span>✓</span></p>
+
+            <p class="loading-final">
+                ONE LAST THING .......... <span id="loadingDots">LOADING</span>
+            </p>
+
+        </div>
+
+        <h1 id="birthdayHeading">
+            Happy Birthday. 🎂
+        </h1>
+
+        <p class="final-text">
+            I hope this year gives you a lot of reasons to smile.
+        </p>
+
+        <button id="photoRevealButton">
+            There's one more thing →
+        </button>
+
+    </div>
+
+
+    <!-- 3. Final Photo + Personal Message -->
+
+    <div class="final-personal" id="finalPersonal">
+
+        <div class="final-photo-side">
+
+            <img src="final-photo.jpeg"
+                 alt="A special birthday memory"
+                 class="special-photo">
+
+        </div>
+
+
+        <div class="final-message-side">
+
+            <p class="small-text">
+                One last thing...
+            </p>
+
+            <div class="personal-message">
+
+                <p>
+                    Okay, so finally... no.
+                    <br><br>
+
+                    A very Happy Birthday to you, firstly! 🎂
+                </p>
+
+                <p>
+                    Of course, it's a special day for you,
+                    so only for today — thank you for all
+                    the things you've helped me with, and
+                    sorry for all the mistakes I've made,
+                    knowingly or unknowingly.
+                </p>
+
+                <p>
+                    To be frank, I only want to say one thing:
+                    <strong>I never want to be the reason
+                    for your tears.</strong>
+                </p>
+
+                <p>
+                    Okay, not making it more sad —
+                    after all, it's your birthday. 😂
+                </p>
+
+                <p>
+                    I really wanted to gift you something,
+                    but you know the conditions, so this is
+                    a small gift from my side.
+                </p>
+
+                <p>
+                    Always remember,
+                    <strong>all our talks will always be
+                    safe with me.</strong>
+                </p>
+
+                <p>
+                    I don't even know what I thought and
+                    what I've written in this message because
+                    I'm writing this way before your birthday,
+                    in the middle of the night. 😂
+                </p>
+
+                <p class="final-birthday-line">
+                    But anyway...
+                    <br><br>
+                    <strong>Happy wala Birthday!!!! 🎂❤️</strong>
+                </p>
+                <button id="finishButton" class="finish-button">
+    Finish →
+</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- 4. Final Ending -->
+
+    <div class="absolute-ending" id="absoluteEnding">
+
+        <div class="ending-cake">🎂</div>
+
+        <h1>Happy Birthday.</h1>
+
+        <p>That's it.</p>
+
+        <span>For real this time. 😂</span>
+
+        <small>
+            — Made with way too much effort.
+        </small>
+
+    </div>
+
+</section>
+
+<!-- Dentist Mode Easter Egg -->
+<div class="dentist-popup" id="dentistPopup">
+
+    <div class="dentist-card">
+
+        <button class="dentist-close" id="dentistClose">
+            ×
+        </button>
+
+        <p class="dentist-title">🦷 Dentist Mode Activated</p>
+
+        <p class="dentist-message">
+            <strong>Doctor's orders:</strong><br>
+            Take breaks.<br>
+            Drink some water.<br>
+            Don't forget to smile. 😊
+        </p>
+
+        <p class="dentist-signature">
+            — Your unofficial engineering consultant
+        </p>
+
+    </div>
+
+</div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
